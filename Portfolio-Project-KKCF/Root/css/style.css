@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Newake";
+    src: url(Root/fonts/Newake-Font-Demo.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Poppins:wght@100&display=swap');
+
+
+body {
+    overflow-x: hidden;
+    width: 1920px;
+    height: 1300px;
+    background-image: url(/Root/imgs/indeximgs/background\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body .logo {
+    width: 1300;
+    height: 282px;
+}
+
+.logo img {
+    width: 1883;
+    height: 696px;
+    position: fixed;
+    left: 25%;
+    top: -70px;
+    mix-blend-mode: difference;
+}
+
+.next {
+   cursor: pointer;
+   position: fixed;
+   left: 41%;
+    top: 65vh;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    width: 1920px;
+    position: relative;
+    top: 820px;
+    right: 20px;
+    height: 230px;
+}
+
+footer p {
+    color: white;
+    font-family: "Chivo";
+    font-style: normal;
+    font-size: 14px;
+
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
